@@ -153,7 +153,7 @@ const SignUp: React.FC = () => {
         });
       },
     );
-  }, []);
+  }, [updateUser, user.id]);
 
   const handleGoBack = useCallback(() => {
     navigation.goBack();
